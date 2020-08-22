@@ -19,7 +19,6 @@
     "spcy:build": "yarn spcy:clean && tsc",
     "spcy:format": "prettier --write \"{src,__tests__}/**/*.{js,ts}\"",
     "spcy:lint": "eslint --fix \"src/**/*.{js,ts}\"",
-    "spcy:test": "jest",
     "plop": "plop --plopfile ./dist/plopfile.js"
   },
   "bin": {
